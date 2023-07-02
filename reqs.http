@@ -1,0 +1,14 @@
+GET https://render-codespaces.onrender.com
+###
+GET https://render-codespaces.onrender.com/demo/all
+###
+POST https://render-codespaces.onrender.com/demo/add
+Content-Type: application/x-www-form-urlencoded
+
+name=Juan&email=juan@idat.edu.pe
+###
+DELETE https://render-codespaces.onrender.com/demo/del
+Content-Type: application/x-www-form-urlencoded
+
+id=53
+
